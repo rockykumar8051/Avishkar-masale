@@ -210,7 +210,8 @@ background-color: var(--main-color);
     background-repeat: repeat;
     background-image: url(/img/footer.jpeg);
     background-attachment: scroll;
-	 color: black;
+    color: black;
+font-weight: 500;
  }
  footer a{
 	 text-transform: capitalize;
@@ -223,7 +224,7 @@ background-color: var(--main-color);
 	 color: #740404;
  }
  .container-fluid{
-	background-color:rgba(255,122,0,61%);
+	background-color:rgb(185 92 6);
  }
 
 
