@@ -109,17 +109,14 @@ background-color: var(--main-color);
 	margin-top: 10.5rem;
   }
   
-  .name {
-	  margin-top: 20px;
-	font-weight: bold;
-	font-size: 1.5rem;
-  }
+
   
-  .description {
-	
+  .description {	
 	margin: 1rem 2rem;
 	font-size: 1rem;
 	padding-bottom: 10px;
+	text-align: center;
+	letter-spacing: 0.8px;
   }
  
  
@@ -161,29 +158,13 @@ background-color: var(--main-color);
   
  }
 
+ /* gallery start */
 
- /* form section */
-
- .form .card img{
-	 width: auto;
-	 height: 80vh;
- }
- .card h1{
-	 padding-top:50px;
-	 padding-left: 100px;
- }
- @media screen and  (max-width: 768px){
-	.card img{
-		width: auto;
-		height: 80vh;
-	}
-	.card h1{
-		padding-top:20px;
-		padding-left: 10px;
-	}
-  
- }
- /* form section end */
+ .container .row .gallery-img img{
+	width: 100%;
+	border-radius: 5%;
+}
+  /* gallery end */
 
  .textomonial{
 	overflow: hidden;
@@ -208,7 +189,7 @@ background-color: var(--main-color);
  footer{
     background-size: cover;
     background-repeat: repeat;
-    background-image: url(/img/footer.jpeg);
+	font-weight: 500;
     background-attachment: scroll;
     color: black;
 font-weight: 500;
@@ -225,9 +206,12 @@ font-weight: 500;
  }
  .container-fluid{
 	background-color:rgb(185 92 6);
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 6af97d4068d5fb110abd18244e8867b35f8f81d2
  }
-
-
  /* about us css */
  div .about-content {
 	padding: 0 150px;
@@ -293,7 +277,7 @@ font-weight: 500;
 
 	  .container .row .card .blog-img{
 		  width: 100%;
-		  height: 280px;
+		  border-radius: 3%;
 	  }
 
  }
